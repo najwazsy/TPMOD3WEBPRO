@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Profil Pribadi</title>
+</head>
+<body>
+    <h1> Profile Pribadi </h1>
+    <p> Foto Profil     Video Perkenalan </p>
+    <img src="Najwa Zahidah Syauqi_External Relation.jpeg" width="90px" height="125px"/> <!--fungsi: untuk menampilkan gambar pada halaman web --> <!--alasan saya menggunakan tag ini karena saya ingin menginput gambar-->
+    <video width="70" controls>
+        <source src="video_perkenalan.mp4" type="video/mp4">
+    </video>
+    <h2> Tentang Saya </h2>
+    <p> Halo! Saya adalah seorang mahasiswi S1 Teknologi Informasi Angkatan 2022 di Universitas Telkom </p>
+    <h2> Keterampilan </h2>
+<table width="15%" height="40%" border="0"> <!--fungsi: untuk menampilkan tabel--> <!--alasan nya karena untuk mengukur berapa panjang dan tinggi dari tabel sebelum masuk ke pendefinisian baris, kolom dan heading-->
+    <tr> <!--fungsi: untuk mendefinisikan baris pada tabel--> <!-- alasan nya tag ini disini karena untuk mengatur baris pertama dari tabel-->
+        <th>Keterampilan</th> <!--fungsi: untuk mendefinisikan heading tabel--> <!--untuk mengisi heading 1 dari tabel-->
+        <th>Tingkat</th>
+    </tr>
+    <tr>
+        <td>HTML/CSS</td> <!--fungsi: untuk mendefinisikan kolom pada tabel--> <!--untuk mengisi baris 1 kolom 1 dari tabel-->
+        <td>Mahir</td>  <!--untuk mengisi baris 1 kolom 2 dari tabel-->
+    </tr>
+    <tr>
+        <td>JavaScript</td> <!--fungsi: untuk mendefinisikan kolom pada tabel-->  <!--untuk mengisi  baris 2 kolom 1 dari tabel-->
+        <td>Menengah</td>  <!--untuk mengisi baris 2 kolom 2 dari tabel-->
+    </tr>
+    <tr>
+        <td>Python</td>  <!--untuk mengisi baris 3 kolom 1 dari tabel-->
+        <td>Pemula</td>  <!--untuk mengisi baris 3 kolom 2 dari tabel-->
+    </tr>
+</table>
+    <h2> Hubungi Saya </h2>
+</body>
+    <form action="#" method="POST"> <!--fungsi tag form: sbg wadah utk menampung dan mengumpulkan data2 dari pengguna -->
+        <div class="form-group"> <!-- fungsi tag div untuk menempatkan beberapa elemen menjadi satu bagian-->
+            <label for="nama_id">Nama:</label>
+            <input type="text" name="nama_input"> <!--fungsi tag input: untuk mengambil isian berupa text-->
+        </div>
+        <div class="form-group">
+            <label for="email_id">Email:</label>
+            <input type="text" name="email_input">
+         </div>
+        <div class="form-group">
+            <label for="Pesan">Pesan:</label>
+            <textarea id="Pesan" name="Pesan" rows="5"></textarea>
+        </div>
+        <div class="form-actions">
+            <button type="button" class="btn-kirim">Kirim Pesan</button> <!--fungsi tag button: membuat tombol-->
+        </div>
+    </form>
+    <h3>Media Sosial:</h3>
+        <a href="https://www.linkedin.com/in/najwa-zahidah-syauqi-03aa652a4/">LinkedIn |</a> <!--fungsi tag a: untuk mmebuat hyperlink dalam HTML-->
+        <a href="https://github.com/najwazsy">GitHub</a>
+</html>
